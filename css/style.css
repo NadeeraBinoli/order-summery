@@ -1,0 +1,83 @@
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+#challenge{
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  left: 25%;
+  right: 25%;
+}
+#footer{
+  position:relative;
+  top: 350px;
+}
+a {
+  color: hsl(228, 45%, 44%);
+}
+
+body{
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+h2{
+  font-weight:900;
+}
+h5{
+  font-weight:700;
+}
+p{
+  font-size: 16px;
+  font-weight:500;
+  margin: 3%;
+}
+
+.order-card{
+  width: 30rem;
+  height: 35rem;
+  text-align: center;
+  display: inline-flex;  /*  cheak */
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.Cancel_Order {
+    font-weight:700;
+    font-size: 16px;
+    text-decoration: none;
+    color: gray;
+}
+.Order {
+    padding-top: 20px;
+}
+.d-grid {
+    padding-top: 20px;
+}
+.Cancel_Order:hover{
+  color: black;
+}
+#annual_card{
+  background-color:hsl(225, 100%, 98%);
+  padding: 0.8rem;
+}
+@media screen and (min-width:900px) {
+  #backgroundImage{
+    background-image: url(images\pattern-background-mobile.svg);
+  }
+}
+
+
+.musicIcon{
+  position: relative;
+  right: 40%;
+}
+
+.AnnualPlan{
+  position: absolute;
+  right: 55%;
+}
+.Change{
+  position: absolute;
+  left: 80%;
+}
